@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.wd100{
+    width:100%
+}
+.clWhite{
+    color:white;
+}
+#footer .footerInnerParentContainer{
+    float: left;
+    width: 100%;
+  }
+  #footer .footerInnerParentContainer .FaqAndAboutUsIcon, #footer .footerInnerParentContainer .socialMediaIconsInFooter, #footer .footerInnerParentContainer .playStoreIconsBusinessPrivacyTermsContactLinkContainerInFooter{
+    padding-top: 2px;
+  }
+  #footer .playStoreIconsBusinessPrivacyTermsContactLinkContainerInFooter .appStoreIcon a, #footer .playStoreIconsBusinessPrivacyTermsContactLinkContainerInFooter .googlePlayIcon a{
+    padding-top: 8px;
+  }
+  #footer .socialMediaIconsInFooter{
+    width: 12%;
+  }
+  #footer .playStoreIconsBusinessPrivacyTermsContactLinkContainerInFooter{
+    width: 75%;
+  }
+  #footer .playStoreIconsBusinessPrivacyTermsContactLinkContainerInFooter .copyright{
+    float: left;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 20%;
+  }
+  #footer .playStoreIconsBusinessPrivacyTermsContactLinkContainerInFooter .playStoreIconsBusinessPrivacyTermsContactLinkInnerContainerInFooter{
+    padding-top: 0px;
+  }
+
+  .pull-left{
+      float:left;
+  }
+  .pull-right{
+      float:right;
+  }
+  .FaqAndAboutUsIcon{
+      padding-top:2px;
+  }
+  footer ul{
+      padding:5px 0;
+      margin-top:0px;
+      margin-bottom:12px;
+  }
+  .swatch-black{
+      background:#000;
+      color:#ffffff;
+  }
+  footer{
+      display:block;
+      margin:0;
+      background:#111;
+      text-align:center;
+      height:50px;
+      overflow:hidden;
+      border-top:2px solid #000000;
+  }
+  footer li{
+      display:block;
+      float:left;
+      list-style-type:none;
+  }
+  footer li a{
+      display:block;
+      padding:10px 15px;
+  }
+  .swatch-black a{
+      color:#ffffff;
+  }
+  a{
+      text-decoration:none;
+      background:0 0;
+  }
+.swatch-black a:hover{
+    color:#d0d0d0;
+}
+.copyright{
+    float:left;
+    display:block;
+    padding-left:0px;
+    padding-right:0px;
+    width:20%;
+    margin:0 auto;
+    color:#999;
+}
+.section{
+    position:relative;
+    overflow:hidden;
+    display:block;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

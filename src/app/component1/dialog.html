@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>POP UP TEST</h1>
+<div mat-dialog-content>
+  <p>Given is the image you clicked</p>
+  <div>
+      <img src="{{this.imgUrl}}" style="height: 225px; width: 348; display: block;"/>
+  </div>
+</div>
+<div mat-dialog-actions class="text-center">
+  <button mat-button class="btn btn-primary" cdkFocusInitial (click)="Close()">Close</button>
+</div>
